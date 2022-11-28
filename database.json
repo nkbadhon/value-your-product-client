@@ -1,0 +1,74 @@
+[
+    {
+        "Category_id": 1,
+        "Brand_name": "Samsung",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    },
+    {
+        "Category_id": 1,
+        "Brand_name": "Samsung",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    },
+    {
+        "Category_id": 2,
+        "Brand_name": "Oneplus",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    },
+    {
+        "Category_id": 2,
+        "Brand_name": "Oneplus",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    },
+    {
+        "Category_id": 3,
+        "Brand_name": "Iphone",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    },
+    {
+        "Category_id": 3,
+        "Brand_name": "Iphone",
+        "Seller_name": "Rahim",
+        "Location": "Dhaka",
+        "Original_Price": "60000",
+        "Resell_Price": "40000",
+        "Years_of_Use": "3",
+        "Posted_Time": "11.11.2022",
+        "img": "",
+        "User_State": "true"
+    }
+]
