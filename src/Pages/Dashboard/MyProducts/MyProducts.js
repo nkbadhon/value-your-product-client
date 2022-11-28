@@ -18,7 +18,6 @@ const MyProducts = () => {
     //     }
     // })
     const data = useLoaderData();
-    console.log('dddddddd', data)
     return (
         <div>
             <h3 className="text-3xl mb-5">My Orders</h3>

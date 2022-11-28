@@ -6,7 +6,6 @@ import SubCatagoriy from './SubCatagoriy';
 const SubCatagories = () => {
     const data = useLoaderData();
     const [modaldetails, setModalDetails] = useState(null);
-    console.log("Eta brand name ", data);
     return (
         <div>
             {data.length}

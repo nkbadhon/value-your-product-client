@@ -17,7 +17,7 @@ const Singlefromall = (single) => {
                 <p>Posted On: {Posted_Time}</p>
             </div>
             <div className="card-actions justify-center">
-                <button className="btn btn-primary">See all available phones</button>
+                <button className="btn">See all available phones</button>
             </div>
         </div>
     );

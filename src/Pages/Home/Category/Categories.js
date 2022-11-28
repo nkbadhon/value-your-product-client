@@ -33,7 +33,7 @@ const Categories = () => {
                             single={single}
                         ></Category>)
                 }
-                <Link to='/allavailableproducts'><button className='btn btn-primary'>See All Products</button></Link>
+                <Link to='/allavailableproducts'><button className='btn'>See All Products</button></Link>
             </div>
         </div>
     );

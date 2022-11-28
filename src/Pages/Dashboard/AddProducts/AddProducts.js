@@ -4,12 +4,12 @@ import { Result } from 'postcss';
 import React, { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider';
-import DayPick from '../../DayPick/DayPick';
 
 const AddProducts = () => {
     const Conditions = ['Excellent', 'Good', 'Fair'];
-
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
     const { register, handleSubmit, formState: { errors } } = useForm('');
 
@@ -22,7 +22,6 @@ const AddProducts = () => {
             return data;
         }
     })
-
     const handleAddProducts = data => {
 
         const product = {
@@ -54,6 +53,7 @@ const AddProducts = () => {
                 console.log(result);
                 toast.success('Your product added successfully');
                 refetch();
+                navigate(`/dashboard/allProducts/${product.email}`);
                 // if (data.acknowledged) {
 
                 // }
