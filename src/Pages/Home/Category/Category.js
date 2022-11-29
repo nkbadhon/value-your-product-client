@@ -21,7 +21,7 @@ const Category = (single) => {
             <div className="card-body">
                 <h2 className="card-title">{Brand_name}</h2>
                 <p></p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-center w-full my-2">
                     <Link to={`/allProducts/${Category_id}`}><button className="btn btn-info text-white ">See all available phones</button></Link>
                     {/* to={`/allProducts/${category_id}`}><button className="btn btn-info" */}
                 </div>
