@@ -15,6 +15,7 @@ import MyProducts from "../Pages/Dashboard/MyProducts/MyProducts";
 import AddProducts from "../Pages/Dashboard/AddProducts/AddProducts";
 import SubCatagories from "../Pages/SubCatagories/SubCatagories";
 import Blog from "../Pages/Blog/Blog";
+import NotFound from "../Pages/NotFound/NotFound";
 
 
 
@@ -41,12 +42,16 @@ const router = createBrowserRouter([
                 element: <Registration></Registration>
             },
             {
+                path: '*',
+                element: <NotFound></NotFound>
+            },
+            {
                 path: '/allavailableproducts',
-                element: <AllAvailableProducts></AllAvailableProducts>
+                element: <Privetroute><AllAvailableProducts></AllAvailableProducts></Privetroute>
             },
             {
                 path: '/allProducts/:id',
-                element: <SubCatagories></SubCatagories>,
+                element: <Privetroute><SubCatagories></SubCatagories></Privetroute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.id}`)
             }
         ]

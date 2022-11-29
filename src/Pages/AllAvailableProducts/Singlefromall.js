@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Singlefromall = (single) => {
+const Singlefromall = ({ single, setModalDetails }) => {
 
-    const { img, Brand_name, name, Location, Original_Price, Resell_Price, Years_of_Use, } = single.single;
+    const { img, Brand_name, name, Location, Original_Price, Resell_Price, Years_of_Use, } = single;
 
     return (
         <div className="card card-compact w-96 bg-base-100 shadow-xl ">
@@ -15,8 +15,8 @@ const Singlefromall = (single) => {
                 <p>Resell Price: {Resell_Price}</p>
                 <p>Using Period: {Years_of_Use}</p>
             </div>
-            <div className="card-actions justify-center">
-                <button className="btn">See all available phones</button>
+            <div className="card-actions justify-end">
+                <label onClick={() => setModalDetails(single)} htmlFor="Booking-modal" className="btn btn-info">Book Now</label>
             </div>
         </div>
     );
