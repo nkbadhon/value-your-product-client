@@ -1,6 +1,6 @@
 [
     {
-        "Category_id": 1,
+        "Category_id": "1",
         "Brand_name": "Samsung",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
@@ -12,7 +12,7 @@
         "User_State": "true"
     },
     {
-        "Category_id": 1,
+        "Category_id": "2",
         "Brand_name": "Samsung",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
@@ -24,7 +24,7 @@
         "User_State": "true"
     },
     {
-        "Category_id": 2,
+        "Category_id": "2",
         "Brand_name": "Oneplus",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
@@ -36,7 +36,7 @@
         "User_State": "true"
     },
     {
-        "Category_id": 2,
+        "Category_id": "3",
         "Brand_name": "Oneplus",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
@@ -48,7 +48,7 @@
         "User_State": "true"
     },
     {
-        "Category_id": 3,
+        "Category_id": "3",
         "Brand_name": "Iphone",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
@@ -60,7 +60,7 @@
         "User_State": "true"
     },
     {
-        "Category_id": 3,
+        "Category_id": "1",
         "Brand_name": "Iphone",
         "Seller_name": "Rahim",
         "Location": "Dhaka",
