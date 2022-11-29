@@ -7,9 +7,14 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     },
     {
         "Category_id": "2",
@@ -19,9 +24,14 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     },
     {
         "Category_id": "2",
@@ -31,9 +41,14 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     },
     {
         "Category_id": "3",
@@ -43,9 +58,14 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     },
     {
         "Category_id": "3",
@@ -55,9 +75,14 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     },
     {
         "Category_id": "1",
@@ -67,8 +92,13 @@
         "Original_Price": "60000",
         "Resell_Price": "40000",
         "Years_of_Use": "3",
-        "Posted_Time": "11.11.2022",
+        "Posted_Time": "",
         "img": "",
-        "User_State": "true"
+        "User_State": "true",
+        "email": "h@h.com",
+        "name": "h",
+        "Description": "h",
+        "Mobile_Number": "h",
+        "Condition_Type": "Excellent"
     }
 ]

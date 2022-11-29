@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 const Categories = () => {
 
-
     const { data: datas = [] } = useQuery({
         queryKey: ['allCategory'],
         queryFn: () => fetch('http://localhost:5000/allCategory')
@@ -22,9 +21,6 @@ const Categories = () => {
 
     return (
         <div>
-            <div>
-                ALl Available Categories: {datas.length}
-            </div>
             <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
                     datas.map(single =>
@@ -33,8 +29,9 @@ const Categories = () => {
                             single={single}
                         ></Category>)
                 }
-                <Link to='/allavailableproducts'><button className='btn'>See All Products</button></Link>
+
             </div>
+            <Link to='/allavailableproducts'><button className='btn w-full'>See All Products</button></Link>
         </div>
     );
 };
