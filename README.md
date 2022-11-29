@@ -1,3 +1,51 @@
+Assalamu alaikum. Welcome to my project.
+
+Project Name: Value Your Product
+Project Link: 
+
+
+Features:
+1. In home section there are navbar, catagories of available phones, about us section and a footer.
+2. In Catagory section you can see all the available catagories in body.
+3. After clicking on a particular catagory, system will ask for user login.
+4. You can login/register using email.
+5. In blog section you can get basic knowledge of web related things.
+
+Technologies used for this project:
+
+1. I have used Tailwind.
+2. I have used firebase.
+3. I have used vercel.
+4. I have used express js.
+5. I have used cors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
