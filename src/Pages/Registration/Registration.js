@@ -44,7 +44,7 @@ const Registration = () => {
 
   const saveUser = (name, email, type) => {
     const user = { name, email, type };
-    fetch('http://localhost:5000/users', {
+    fetch('https://reselling-web-server.vercel.app/users', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -59,7 +59,7 @@ const Registration = () => {
   }
 
   const getUserToken = email => {
-    fetch(`http://localhost:5000/jwt?email=${email}`)
+    fetch(`https://reselling-web-server.vercel.app/jwt?email=${email}`)
       .then(res => res.json())
       .then(data => {
         if (data.accessToken) {

@@ -16,7 +16,7 @@ const AddProducts = () => {
 
         queryKey: ['Catagory'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/brands`);
+            const res = await fetch(`https://reselling-web-server.vercel.app/brands`);
             const data = await res.json();
             return data;
         }
@@ -39,7 +39,7 @@ const AddProducts = () => {
 
         }
         console.log(product);
-        fetch('http://localhost:5000/allProducts',
+        fetch('https://reselling-web-server.vercel.app/allProducts',
             {
                 method: 'POST',
                 headers: {

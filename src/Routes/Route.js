@@ -52,7 +52,7 @@ const router = createBrowserRouter([
             {
                 path: '/allProducts/:id',
                 element: <Privetroute><SubCatagories></SubCatagories></Privetroute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.id}`)
+                loader: ({ params }) => fetch(`https://reselling-web-server.vercel.app/allProducts/${params.id}`)
             }
         ]
     },
@@ -71,7 +71,7 @@ const router = createBrowserRouter([
             {
                 path: '/dashboard/allProducts/:email',
                 element: <MyProducts></MyProducts>,
-                loader: ({ params }) => fetch(`http://localhost:5000/allProducts/${params.email}`)
+                loader: ({ params }) => fetch(`https://reselling-web-server.vercel.app/allProducts/${params.email}`)
             },
             // {
             //     path: '/dashboard/allProducts',

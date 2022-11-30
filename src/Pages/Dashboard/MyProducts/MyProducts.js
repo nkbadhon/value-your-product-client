@@ -18,7 +18,7 @@ const MyProducts = () => {
     }
 
     const handleDelete = id => {
-        fetch(`http://localhost:5000/allProducts/${id}`, {
+        fetch(`https://reselling-web-server.vercel.app/allProducts/${id}`, {
             method: 'DELETE',
 
         })

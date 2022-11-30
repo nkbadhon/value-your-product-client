@@ -26,7 +26,7 @@ const BookModal = ({ modaldetails, setModalDetails }) => {
             meeting
         }
 
-        fetch('http://localhost:5000/myOrders', {
+        fetch('https://reselling-web-server.vercel.app/myOrders', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

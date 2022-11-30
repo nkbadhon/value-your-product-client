@@ -6,7 +6,7 @@ const Category = (single) => {
 
     // const { data: allProducts = [], refetch, isLoading } = useQuery({
     //     queryKey: ['allProducts', date],
-    //     queryFn: () => fetch(`http://localhost:5000/allProducts?date=${date}`)
+    //     queryFn: () => fetch(`https://reselling-web-server.vercel.app/allProducts?date=${date}`)
     //         .then(res => res.json())
     // });
 

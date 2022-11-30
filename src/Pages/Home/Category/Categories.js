@@ -9,13 +9,13 @@ const Categories = () => {
 
     const { data: datas = [] } = useQuery({
         queryKey: ['allCategory'],
-        queryFn: () => fetch('http://localhost:5000/allCategory')
+        queryFn: () => fetch('https://reselling-web-server.vercel.app/allCategory')
             .then(res => res.json())
     });
 
     const { data: datasall = [] } = useQuery({
         queryKey: ['allProducts'],
-        queryFn: () => fetch('http://localhost:5000/allProducts')
+        queryFn: () => fetch('https://reselling-web-server.vercel.app/allProducts')
             .then(res => res.json())
     });
 
