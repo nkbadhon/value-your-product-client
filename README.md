@@ -2,6 +2,11 @@ Assalamu alaikum. Welcome to my project.
 
 Project Name: Value Your Product
 Project Link: https://value-your-product.web.app/
+User Informations:
+
+adminEmail: admin@gmail.com
+
+adminPassword: aaaaaa
 
 
 Features:
